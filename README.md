@@ -3,7 +3,8 @@
 ## Information
 
 This app allows users to generate sequential integers.
-<br>Time Taken to develop: 2 hours
+
+<br>Time Taken to develop: <b>2 hours<b>
 
 ## Installation
 
@@ -18,6 +19,9 @@ Local environment <b>URL</b>:<br>http://localhost:3000
 Production environment <b>URL</b>:<br>https://take-home-web.herokuapp.com
 
 Note: for testing it in your machine please run the app and just replace the "Production URL" with the "Local URL" above.
+
+You can use postman or curl to test the API.<br>
+Postman collection url: https://documenter.getpostman.com/view/5834717/Szt8dUyD
 
 <b>Authentication</b>
 - <code>curl -X “POST” https://take-home-web.herokuapp.com/api/auth/signup --data “email=mislimumer@gmail.com&password=12345678&fullName=Muslim omar” -i</code>
