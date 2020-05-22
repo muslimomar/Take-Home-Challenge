@@ -4,7 +4,7 @@
 
 This app allows users to generate sequential integers.
 
-<br>Time Taken to develop: <b>2 hours<b>
+<br>Time Taken to develop: <b>2 hours</b>
 
 ## Installation
 
