@@ -1,0 +1,5 @@
+{
+  "PORT": 3000,
+  "JWT_SECRET": "jfiojdslk0d9jsivfijdsklcvjfdkcmldsdkllkfakldsf",
+  "DB_URL": "mongodb://localhost:27017/takeHome"
+}
