@@ -1,2 +1,6 @@
-/* wraps express endpoints in an async handler to catch async errors */
-require('express-async-errors');
+const errorMiddleware = require('./../middleware/error');
+
+module.exports = (app) => {
+
+    app.use(errorMiddleware);
+};

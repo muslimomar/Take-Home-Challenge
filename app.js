@@ -14,10 +14,12 @@ require('./startup/db');
 const app = require('express')();
 
 require('./startup/requestBodyParser')(app);
-require('./startup/errorHandler');
+require('./startup/expressAsyncErrorsWrapper');
 require('./startup/responseHelper')(app);
 require('./startup/passport')(app);
 require('./startup/routes')(app);
+require('./startup/handlingInvalidRoutes')(app);
+require('./startup/errorHandler')(app);
 
 const PORT = config.get('PORT');
 app.listen(PORT, () => {
