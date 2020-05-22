@@ -10,9 +10,14 @@ This app allows users to generate sequential integers.
 
 Instructions on how to install
 
-<code>git clone https://github.com/muslimomar/Take-Home-Challenge<br>cd Take-Home-Challenge<br>npm install<br>npm run start</code>
+```  
+  git clone https://github.com/muslimomar/Take-Home-Challenge 
+  cd Take-Home-Challenge
+  npm install
+  npm run start
+  ```
 
-##Documentation
+## Documentation
 
 Local environment <b>URL</b>:<br>http://localhost:3000
 
